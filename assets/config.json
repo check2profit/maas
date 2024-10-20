@@ -13,7 +13,7 @@
         }
       ],
       "violations": {
-        "telegram_token": "7544641431:AAHmqG40TJh4j4fx1-FB4_U5ETdlVcoKjG8",
+        "telegram_token": "",
         "telegram_chat_id": -4582937824,
         "categories": ["Нарушение 1", "Нарушение 2", "Нарушение 3"],
         "sales_points": ["Точка 1", "Точка 2", "Точка 3"]
@@ -41,7 +41,7 @@
         }
       ],
       "violations": {
-        "telegram_token": "7544641431:AAHmqG40TJh4j4fx1-FB4_U5ETdlVcoKjG8",
+        "telegram_token": "",
         "telegram_chat_id": -4514976179,
         "categories": ["Нарушение 1", "Нарушение 2", "Нарушение 3"],
         "sales_points": ["Точка 1", "Точка 2", "Точка 3"]
