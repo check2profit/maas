@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Выбор Клиента и Форм</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="mx-4">
+    <div class="container mt-4">
+      <div class="columns">
+        <!-- Боковая панель с клиентами -->
+        <div class="column is-one-quarter">
+          <aside class="menu">
+            <p class="menu-label">Клиенты</p>
+            <ul class="menu-list" id="client-list">
+              <!-- Клиенты будут подгружаться динамически -->
+            </ul>
+          </aside>
+        </div>
+
+        <!-- Основная часть с формами и кнопкой для нарушения -->
+        <div class="column">
+          <div id="forms-container">
+            <h2 class="title" id="client-name">Выберите клиента</h2>
+            <ul id="forms-list">
+              <!-- Ссылки на формы будут подгружаться динамически -->
+            </ul>
+            <button
+              id="violations-open-button"
+              class="button is-danger"
+              style="display: none"
+            >
+              Сообщить о нарушении
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Модальная форма нарушений -->
+      <div id="violations__modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Сообщить о нарушении</p>
+            <button
+              class="delete violations__close-button"
+              aria-label="close"
+            ></button>
+          </header>
+          <section class="modal-card-body">
+            <form id="violations">
+              <!-- Категория нарушения -->
+              <div class="field">
+                <label class="label">Категория нарушения</label>
+                <div class="control">
+                  <div class="select">
+                    <select id="category" required></select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Торговая точка -->
+              <div class="field">
+                <label class="label">Торговая точка</label>
+                <div class="control">
+                  <div class="select">
+                    <select id="sales-point" required></select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Оператор -->
+              <div class="field">
+                <label class="label">Оператор</label>
+                <div class="control">
+                  <div class="select">
+                    <select id="operator" required></select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Дата и время нарушения -->
+              <div class="field">
+                <label class="label">Дата и время</label>
+                <div class="control">
+                  <input
+                    type="datetime-local"
+                    id="violations-datetime"
+                    required
+                  />
+                </div>
+              </div>
+
+              <!-- Комментарий -->
+              <div class="field">
+                <label class="label">Комментарий</label>
+                <div class="control">
+                  <textarea id="message" class="textarea"></textarea>
+                </div>
+              </div>
+
+              <!-- Вставка изображения -->
+              <div class="field">
+                <label class="label">Вставьте скриншот (Ctrl+V)</label>
+                <input type="text" id="myInput" />
+                <img id="myImage" style="display: none" />
+              </div>
+
+              <!-- Кнопка отправки -->
+              <div class="field">
+                <button
+                  id="submit-button"
+                  class="button is-primary"
+                  type="submit"
+                  disabled
+                >
+                  Отправить
+                </button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+
+      <!-- Уведомление -->
+      <div
+        id="notification"
+        class="notification is-success"
+        style="display: none"
+      >
+        <button class="delete" id="notification-close"></button>
+        <span id="notification-text"></span>
+      </div>
+    </div>
+
+    <!-- Подключение JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

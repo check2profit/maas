@@ -1,0 +1,51 @@
+{
+  "clients": [
+    {
+      "name": "Клиент 1",
+      "forms": [
+        {
+          "title": "Форма 1",
+          "link": "https://example.com/client1/form1"
+        },
+        {
+          "title": "Форма 2",
+          "link": "https://example.com/client1/form2"
+        }
+      ],
+      "violations": {
+        "telegram_token": "7544641431:AAHmqG40TJh4j4fx1-FB4_U5ETdlVcoKjG8",
+        "telegram_chat_id": -4582937824,
+        "categories": ["Нарушение 1", "Нарушение 2", "Нарушение 3"],
+        "sales_points": ["Точка 1", "Точка 2", "Точка 3"]
+      }
+    },
+    {
+      "name": "Клиент 2",
+      "forms": [
+        {
+          "title": "Форма 1",
+          "link": "https://example.com/client2/form1"
+        }
+      ]
+    },
+    {
+      "name": "Антон",
+      "forms": [
+        {
+          "title": "Форма 1",
+          "link": "https://example.com/client1/form1"
+        },
+        {
+          "title": "Форма 2",
+          "link": "https://example.com/client1/form2"
+        }
+      ],
+      "violations": {
+        "telegram_token": "7544641431:AAHmqG40TJh4j4fx1-FB4_U5ETdlVcoKjG8",
+        "telegram_chat_id": -4514976179,
+        "categories": ["Нарушение 1", "Нарушение 2", "Нарушение 3"],
+        "sales_points": ["Точка 1", "Точка 2", "Точка 3"]
+      }
+    }
+  ]
+}
