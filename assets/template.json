@@ -1,0 +1,33 @@
+{
+  "clients": [
+    {
+      "name": "еуые",
+      "forms": [
+        {
+          "title": "Касса",
+          "link": "https://forms.gle/"
+        },
+        {
+          "title": "Зона выдачи",
+          "link": "https://forms.gle/"
+        }
+      ]
+    },
+
+    {
+      "name": "С нарушениями",
+      "forms": [
+        {
+          "title": "Форма 1",
+          "link": "https://example.com/client1/form1"
+        }
+      ],
+      "violations": {
+        "telegram_token": "",
+        "telegram_chat_id": 1,
+        "categories": ["Нарушение 1", "Нарушение 2", "Нарушение 3"],
+        "sales_points": ["Точка 1", "Точка 2", "Точка 3"]
+      }
+    }
+  ]
+}

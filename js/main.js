@@ -2,14 +2,14 @@
 let clientsData;
 let operatorsData;
 
-fetch("./../assets/config.json")
+fetch("assets/config.json")
   .then((response) => response.json())
   .then((data) => {
     clientsData = data.clients;
     loadClientsToSidebar();
   });
 
-fetch("./../assets/operators.json")
+fetch("assets/operators.json")
   .then((response) => response.json())
   .then((data) => {
     operatorsData = data.operators;
@@ -58,7 +58,8 @@ function displayClientForms(clientIndex) {
     a.textContent = form.title;
     a.href = form.link;
     a.target = "_blank";
-    a.className = "text-align-center";
+    a.className =
+      "text-align-center cell-border is-size-5 has-text-weight-medium";
     li.appendChild(a);
     li.className = "box cell-border";
     formsList.appendChild(li);
