@@ -22,12 +22,23 @@ function loadClientsToSidebar() {
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.textContent = client.name;
+
+    // Добавляем обработчик клика
     a.onclick = function () {
+      clearActiveClasses(); // Сброс старой подсветки
+      a.classList.add("is-active"); // Подсветить текущий элемент
       displayClientForms(index);
     };
     li.appendChild(a);
     clientList.appendChild(li);
   });
+}
+
+// Сброс всех активных классов
+
+function clearActiveClasses() {
+  const clientLinks = document.querySelectorAll("#client-list a");
+  clientLinks.forEach((link) => link.classList.remove("is-active"));
 }
 
 // Отображаем формы и кнопку для нарушений для выбранного клиента
@@ -47,7 +58,9 @@ function displayClientForms(clientIndex) {
     a.textContent = form.title;
     a.href = form.link;
     a.target = "_blank";
+    a.className = "text-align-center";
     li.appendChild(a);
+    li.className = "box cell-border";
     formsList.appendChild(li);
   });
 
