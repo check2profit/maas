@@ -1,0 +1,24 @@
+/* @import './bulma.css'; */
+.menu-list a.is-active {
+  background-color: #2942ff;
+  color: white;
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px); /* Фиксированная ширина колонок */
+  grid-template-rows: repeat(2, 150px); /* Фиксированная высота строк */
+  gap: 20px; /* Фиксированный gap между элементами */
+}
+
+.cell-border {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
