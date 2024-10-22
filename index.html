@@ -6,7 +6,7 @@
     <title>Выбор Клиента и Форм</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
     />
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -27,9 +27,10 @@
         <div class="column">
           <div id="forms-container">
             <h2 class="title" id="client-name">Выберите клиента</h2>
-            <ul id="forms-list">
+            <ul id="forms-list" class="custom-grid">
               <!-- Ссылки на формы будут подгружаться динамически -->
             </ul>
+
             <button
               id="violations-open-button"
               class="button is-danger"

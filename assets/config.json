@@ -1,30 +1,45 @@
 {
   "clients": [
     {
-      "name": "Клиент 1",
+      "name": "Франклинс Бургер",
       "forms": [
         {
-          "title": "Форма 1",
-          "link": "https://example.com/client1/form1"
+          "title": "Касса",
+          "link": "https://forms.gle/CdRVppXCmVHyUHuz5"
         },
         {
-          "title": "Форма 2",
-          "link": "https://example.com/client1/form2"
+          "title": "Зона выдачи",
+          "link": "https://forms.gle/bVNGPeEKUYq62YnS6"
         }
-      ],
-      "violations": {
-        "telegram_token": "",
-        "telegram_chat_id": -4582937824,
-        "categories": ["Нарушение 1", "Нарушение 2", "Нарушение 3"],
-        "sales_points": ["Точка 1", "Точка 2", "Точка 3"]
-      }
+      ]
     },
     {
-      "name": "Клиент 2",
+      "name": "Drink IT",
       "forms": [
         {
-          "title": "Форма 1",
-          "link": "https://example.com/client2/form1"
+          "title": "Зал",
+          "link": "https://forms.gle/LLTPxCyfjApRLbSK8"
+        },
+        {
+          "title": "Сотрудники",
+          "link": "https://forms.gle/BPtbNeDJVMWcHH869"
+        },
+        {
+          "title": "Бар",
+          "link": "https://forms.gle/Jgc9mvxyc4Z8AmcTA"
+        },
+        {
+          "title": "График работы",
+          "link": "https://forms.gle/dTUbetBQPFoRF6897"
+        }
+      ]
+    },
+    {
+      "name": "Семишагофф",
+      "forms": [
+        {
+          "title": "Витрина 'Молочная продукция'",
+          "link": "https://forms.gle/VafeZc3schKsbjJb8"
         }
       ]
     },
@@ -34,10 +49,6 @@
         {
           "title": "Форма 1",
           "link": "https://example.com/client1/form1"
-        },
-        {
-          "title": "Форма 2",
-          "link": "https://example.com/client1/form2"
         }
       ],
       "violations": {
