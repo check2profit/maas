@@ -35,11 +35,58 @@
       ]
     },
     {
-      "name": "Семишагофф",
+      "name": "Арт-маркет",
       "forms": [
         {
-          "title": "Витрина 'Молочная продукция'",
-          "link": "https://forms.gle/VafeZc3schKsbjJb8"
+          "title": "Рабочее время",
+          "link": "https://forms.gle/1jzYBXf4HAUXeuQq5"
+        },
+        {
+          "title": "Скрипт разговора",
+          "link": "https://forms.gle/HNZX2LtmWrqyr6MP6"
+        },
+        {
+          "title": "Нарушения",
+          "link": "https://forms.gle/59Q6jxALrZiL4nsJ6"
+        }
+      ]
+    },
+    {
+      "name": "Flowery",
+      "forms": [
+        {
+          "title": "Нарушения",
+          "link": "https://forms.gle/XJJbCyHCNqXYCNZV9"
+        },
+        {
+          "title": "Скрипт разговора",
+          "link": "https://forms.gle/DWZStLr7BrsfYSrH8"
+        }
+      ]
+    },
+    {
+      "name": "VipLinza",
+      "forms": [
+        {
+          "title": "Рабочее время",
+          "link": "https://forms.gle/KH2mLfeLxThcFbkF9"
+        },
+        {
+          "title": "Скрипт разговора",
+          "link": "https://forms.gle/XpidM3wLKPqJaL6t5"
+        },
+        {
+          "title": "Нарушения",
+          "link": "https://forms.gle/ZiishAChCqWPN7GB9"
+        }
+      ]
+    },
+    {
+      "name": "Горфарма",
+      "forms": [
+        {
+          "title": "Нарушения",
+          "link": "https://forms.gle/ePm4aKA2bTmTc6sk7"
         }
       ]
     }
